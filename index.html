@@ -462,6 +462,7 @@ PROJECTS.forEach((p, i) => {
   const card = document.createElement('article');
   card.className = 'proj-card card-lift rounded-3xl border border-line bg-coal overflow-hidden rv';
   card.dataset.cat = p.cat;
+  card.setAttribute('data-rv', '');
   card.innerHTML = `
     <div class="ba rounded-t-3xl">
       <div class="layer">${afterArt}</div>
